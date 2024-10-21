@@ -220,12 +220,7 @@ elif page == "Jalankan Model LSTM":
         st.header('Confusion Matrix')
         st.markdown("""
         ### Apa itu Confusion Matrix?
-        Confusion Matrix adalah tabel yang digunakan untuk mengevaluasi kinerja model klasifikasi. Ini menggambarkan bagaimana prediksi model dibandingkan dengan nilai sebenarnya. 
-        Tabel ini memiliki 4 komponen utama:
-        - **True Positives (TP)**: Kelas positif yang diprediksi dengan benar.
-        - **True Negatives (TN)**: Kelas negatif yang diprediksi dengan benar.
-        - **False Positives (FP)**: Kelas negatif yang diprediksi sebagai positif (kesalahan tipe I).
-        - **False Negatives (FN)**: Kelas positif yang diprediksi sebagai negatif (kesalahan tipe II).
+        Confusion Matrix adalah tabel yang digunakan untuk mengevaluasi kinerja model klasifikasi. Ini menggambarkan bagaimana prediksi model dibandingkan dengan nilai sebenarnya.
         """)
 
         # Tampilkan Confusion Matrix
